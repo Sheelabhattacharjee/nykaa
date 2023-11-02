@@ -1,0 +1,460 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(0,0, 0,0.1);
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: calc(100% - 30px);
+
+  
+}
+.left{
+    display: flex;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.icons span{
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.icons span:hover{
+    color: rgb(253, 118, 133);
+    border-bottom: 2px solid rgb(253, 118, 133);
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.search{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(220, 216, 216);
+    width: 300px;
+    border-bottom: 2px solid rgb(223, 46, 105);
+}
+.search input{
+    border: none;
+    background-color: rgb(220, 216, 216);
+    width: 300px;
+    border-radius: 2px;
+}
+.search input:focus{
+    outline: none;
+    
+}
+.righticon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.images{
+    width: 200px;
+    border-radius: 100px;
+  
+}
+.scrollbar{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    overflow-x: hidden;
+}
+.picicons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scrollimages{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-x: hidden;
+ 
+}
+.review-card{
+    flex: 0 0 calc(100% - 1px);
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto; /* Set height to auto */
+}
+.scrollimages img{
+    margin-top: 50px;
+    width: 100%;
+    height: 320px;
+    cursor: pointer;
+}
+
+.jahnvi{
+    width: 100%;
+    margin-top: 30px;
+    
+
+}
+.jahnvi img{
+    width: 100%;
+    height: 380px;
+    cursor: pointer;
+}
+.animated{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.animated img{
+    width: 100%;
+    height: 100px;
+}
+.spotlight{
+    display: flex; 
+    flex-direction: column;
+     padding: 40px;
+     gap: 10px;
+}
+.head-part{
+    display: flex;
+     flex-direction: column;
+      align-items: center; 
+      gap: 5px;
+}
+.bottom-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+     overflow-x: hidden;
+
+
+}
+.card{
+    display: flex; 
+    flex-direction: column; 
+    width: 250px; 
+    height: 380px;
+     align-items: center;
+     text-align: center;
+     padding: 10px;
+     overflow: hidden;
+     cursor: pointer;
+}
+.express{
+    width: 100%;
+    margin-top: 10px;
+}
+.express img{
+    width: 100%;
+    height: 300px;
+}
+.newcard img{
+    height: 350px;
+
+}
+.newestcard img{
+    height: 300px;
+}
+.seasonfav{
+    margin-top: -50px; 
+}
+.newer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.niche{
+    background-color: rgb(242, 242, 242);;
+}
+.new-bottom{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* padding: 20px; */
+    /* width: calc(100% - 40px); */
+    gap: 5px;
+  
+}
+ .labels {
+    height: 500px;
+    width: 800px;
+    
+} 
+.labels img{
+    width: 100%;
+    height: 100%;
+}
+.nicheblack{
+    background-color: rgb(0, 0, 0);
+}
+.nykalabel{
+    align-items: center;
+   width: 100%;
+    margin-top: 40px;
+    /* overflow: hidden; */
+}
+.nykalabel img{
+    padding: 40px;
+    width: calc(100% - 80px);
+}
+.kahani{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px;
+    width: calc(100% - 80px); */
+    font-size: 14px;
+    /* font-weight: 400;    */
+    gap: 10px;
+  
+}
+.kahani h1,h2,h3{
+    align-self: flex-start;
+   
+}
+
+.kahani h1{
+    font-size: 18px;
+    color: rgb(68, 64, 64);
+    font-weight: 500;
+}
+.kahani h2{
+    font-size: 16px;
+    color: rgb(28, 26, 26);
+    font-weight: 600;
+}
+.kahani h3{
+    font-size: 14px;
+    color: rgb(28, 26, 26);
+    font-weight: 600;
+}
+.subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px;
+    width: calc(100% - 40px);
+    gap: 130px;
+    overflow-x: hidden;
+  
+   
+}
+.firstpart{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.playicons{
+    display: flex;
+    gap: 10px;
+}
+.playicons img{
+    height: 33px;
+    width: 112px;
+    
+    
+}
+.secondpart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputtag{
+    display: flex;
+   
+   
+}
+.inputtag input{
+padding: 10px;
+border: 1px solid white;
+}
+.inputtag button{
+    padding: 10px;
+    border: 1px solid white;
+    color: rgb(223, 218, 218);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.thirdpart{
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+}
+.contactno{
+    display: flex;
+    flex-direction: column;  
+}
+.helpcentre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: calc(100% - 40px);
+    gap: 220px;
+    margin-top: 10px;
+    background-color: #f3f2f2;
+}
+.pehla{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dusra{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.termscon{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+.tisra{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.offer{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+.chautha{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.socialmedia{
+    display: flex;
+    gap: 10px;
+}
+.variety{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: calc(100% - 40px);
+    gap: 85px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+}
+.women{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.one{
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+}
+.men{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.two{
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+}
+.kids{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.three{
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+}
+.luxe{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.four{
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+}
+.topbrands{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.five{
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+}
+.houseofnyka{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.six{
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+}
+.copyright{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color:#fd7685;
+   font-size: 12px;
+   font-weight: 400;
+
+}  
